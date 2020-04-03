@@ -1,0 +1,26 @@
+table, th, td {
+  border: 1px  ;
+  border-color: grey;
+  border-style: ridge;
+  text-align: left;
+}
+th, td {
+  padding: 5px;
+  height: 12px;
+}
+#right{
+	text-align: right;
+}
+#grey{
+	background-color: #CCCCCC;
+}
+#Calculator{
+	    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+}
+#wide{
+	width: 250px;
+}
+td{
+	width:50px;
+}
