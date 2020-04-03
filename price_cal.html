@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="price_cal.css">
+	<title>Price Calculation Based On Quantity</title>
+</head>
+<body>
+	<table id="Calculator">
+		<tr id="grey">
+			<th></th>
+			<th>Quantity</th>
+			<th>Price</th>
+		</tr>
+		<tr>
+			<td id="wide">Item A</td>
+			<td><input name="qnt_1" type="text" id="qnt_1" value="0" size="3" data-price="100" onkeyup="CalculateItemsValue()"></td>
+			<td>$100</td>
+		</tr>
+		<tr>
+			<td id="wide">Item B</td>
+			<td><input name="qnt_2" type="text" id="qnt_2" value="0" size="3" data-price="50" onkeyup="CalculateItemsValue()"></td>
+			<td>$50</td>
+		</tr>
+		<tr>
+			<td id="wide">Item C</td>
+			<td><input name="qnt_3" type="text" id="qnt_3" value="0" size="3" data-price="30" onkeyup="CalculateItemsValue()"></td>
+			<td>$30</td>
+		</tr>
+		<tr>
+			<td id="wide">Item D</td>
+			<td><input name="qnt_4" type="text" id="qnt_4" value="0" size="3" data-price="24" onkeyup="CalculateItemsValue()"></td>
+			<td>$24</td>
+		</tr>
+		<tr id="grey">
+			<td id="wide"></td>
+			<td id="right"><b>  Total:</b></td>
+			<td><div id="ItemsTotal" bis_skin_checked="1"><strong>$0</strong></div></td>
+		</tr>
+	</table>
+	<script type="text/javascript" src="price_cal.js"></script>
+	
+
+</body>
+</html>
